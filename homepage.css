@@ -32,3 +32,37 @@ div{
     margin-bottom: 4px;
     margin-right: 30px;
 }
+
+#inputTask{
+    background-color: #DBEFEF;
+    color: black;
+    border-color: DBEFEF;
+    height: 100px;
+}
+#saveButton{
+    background-color: #173842;
+    color: white;
+}
+
+.workitem{
+    background-color: #173842;
+    color: #F0F0F0;
+    border-radius: 5px;
+    height: 25px;
+    padding-left: 30px;
+    padding-top: 5px;
+    margin-bottom: 4px;
+    margin-right: 30px;
+}
+
+.song{
+    background-color: #173842;
+    color: #F0F0F0;
+    border-radius: 5px;
+    height: 25px;
+    padding-left: 30px;
+    padding-top: 5px;
+    margin-bottom: 4px;
+    margin-right: 30px;
+    
+}

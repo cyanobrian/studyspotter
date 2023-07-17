@@ -14,13 +14,64 @@
                 <h3 id="date-time">11 Jul 2023 4:20pm</h2>
             </div>
             to do list
-            <div class="todoitem">compsci 121</div>
-            <div class="todoitem">compsci 187</div>
-            <div class="todoitem">compsci 230</div>
-            <div class="todoitem">compsci 250</div>
+            <div class="todoitem">
+                compsci 121
+                <label>
+                    <input type="checkbox"></input>
+                </label>
+            </div>
+            <div class="todoitem">
+                compsci 187
+                <label>
+                    <input type="checkbox"></input>
+                </label>
+            </div>
+            <div id="newTaskContainer">
+                <input type="text" id="inputTask" class="todoitem"></input>
+                <br>
+                <button type="button" id="saveButton">save</button>
+            </div>
         </div>
-        <div class="column" id="currentSession-container"> this session</div>
-        <div class="column" id="songs-container">songs</div>
-      </div>
+        <div class="column" id="currentSession-container"> this session
+            <div class="workitem">
+                compsci 121
+                <label>
+                    <input type="checkbox"></input>
+                </label>
+            </div>
+            <div class="workitem">
+                compsci 187
+                <label>
+                    <input type="checkbox"></input>
+                </label>
+            </div>
+        </div>
+        <div class="column" id="songs-container">
+            songs
+            <div class="workitem">After LIKE IVE</div>
+            <div class="workitem">After LIKE IVE</div>
+            <div class="workitem">After LIKE IVE</div>
+            <!--
+            <table>
+                <tr>
+                    <td>song</td>
+                    <td>artist</td>
+                </tr>
+                <tr class="song">
+                    <td>After LIKE</td>
+                    <td>IVE</td>
+                </tr>
+                <tr class="song">
+                    <td>LEFT RIGHT</td>
+                    <td>XG</td>
+                </tr>
+                <tr class="song">
+                    <td>Queencard</td>
+                    <td>(G)I-DLE</td>
+                </tr>
+            </table>
+            -->
+        </div>
+    </div>
 </body>
 </html>
